@@ -1,0 +1,106 @@
+.clearfix:after{
+    display: block;
+    content:'';
+    clear: both;
+}
+
+.clearfix{
+    _zoom:1;
+}
+
+.container{
+	width: 100%;
+	max-width: 1496px;
+	margin: 0 auto;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+.footer-nav ul{
+    list-style-type: none;
+    background-color: #777;
+	overflow: hidden;
+}
+
+.footer-nav li{
+    float: left;
+    display: inline-block;
+}
+.footer-nav li:hover{
+    background-color: #555;
+}
+
+.footer-nav li a {
+  display: inline-block;
+  color: #FFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.footer-nav li a.active{
+	background-color: #008CBA;
+}
+
+a:hover:not(.active){
+
+}
+
+section{
+	width: 100%;
+	text-align: justify;
+	margin: 4px;
+}
+
+header{
+	width: 100%;
+	padding: 8px;
+	margin: 4px;
+}
+.logo{
+	width: 40%;
+}
+
+.first-section{
+	height:20%;
+	padding-bottom:8%;
+}
+.second-section {
+	height:20%;
+	padding-bottom:4%;
+}
+.third-section{
+	height:20%;
+	padding-bottom:2%;
+}
+.fourth-section{
+	height:20%;
+	padding-bottom:6%;
+}
+#title{
+	color: #32CD32;
+	text-align: center;
+}
+.img{
+	float: left;
+	overflow: hidden;
+	margin-right: 20px;
+}
+.first-section .text-holder, .second-section .text-holder, .third-section, .fourth.section{
+    text-align: left;
+	overflow: auto;
+	font-size: 100%;
+	padding-right: 30%;
+}
+h5{
+	color: #777;
+}
+footer{
+	padding: 6px;
+	background-color: #444;
+	color: #FFF;
+}
